@@ -6,6 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
+    "preinstall": "chmod +x node_modules/.bin/hexo || true",
     "server": "hexo server"
   },
   "hexo": {
